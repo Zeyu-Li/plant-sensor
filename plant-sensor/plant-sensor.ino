@@ -50,7 +50,7 @@ void setup() {
       digitalWrite(LED_PIN, HIGH); // Turn LED on
       delay(250);
       digitalWrite(LED_PIN, LOW);  // Turn LED off
-      delay(250);
+      delay(5000);
     }
   } else {
     Serial.println("Soil is moist enough. No alert needed.");
